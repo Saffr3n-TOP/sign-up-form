@@ -6,5 +6,108 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Sign-up Form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <aside class="aside">
+        <div class="logo">
+          <img
+            src="./img/logo.png"
+            alt="The Odin Project logo"
+            class="logo__image"
+          />
+          <span class="logo__title">ODIN</span>
+        </div>
+
+        <footer class="footer">
+          <small class="text text_small">
+            Background photo by
+            <a
+              href="https://unsplash.com/@haliewestphoto"
+              class="link link_light"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Halie West
+            </a>
+            on
+            <a
+              href="https://unsplash.com"
+              class="link link_light"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Unsplash
+            </a>
+            <br />
+            Logo image from
+            <a
+              href="https://theodinproject.com"
+              class="link link_light"
+              target="_blank"
+              rel="noreferrer"
+            >
+              The Odin Project
+            </a>
+          </small>
+        </footer>
+      </aside>
+
+      <main class="main">
+        <p class="text text_large">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em class="text text_large text_em">now</em> to get started.
+        </p>
+
+        <p class="text text_large">
+          You <em class="text text_large text_em">know</em> you want to.
+        </p>
+
+        <form action="#" method="POST" id="form" class="form">
+          <p class="text text_large">Let's do this!</p>
+
+          <label for="firstName" class="label">
+            FIRST NAME
+            <input type="text" id="firstName" name="firstName" class="input" />
+          </label>
+
+          <label for="lastName" class="label">
+            LAST NAME
+            <input type="text" id="lastName" name="lastName" class="input" />
+          </label>
+
+          <label for="email" class="label">
+            EMAIL
+            <input type="email" id="email" name="email" class="input" />
+          </label>
+
+          <label for="phone" class="label">
+            PHONE NUMBER
+            <input type="tel" id="phone" name="phone" class="input" />
+          </label>
+
+          <label for="password" class="label">
+            PASSWORD
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="input"
+            />
+          </label>
+
+          <label for="confirm" class="label">
+            CONFIRM PASSWORD
+            <input type="password" id="confirm" name="confirm" class="input" />
+          </label>
+        </form>
+
+        <button type="submit" form="form" class="button">Create Account</button>
+
+        <p class="text">
+          Already have an account? <a href="#" class="link link_dark">Log in</a>
+        </p>
+      </main>
+    </div>
+  </body>
 </html>
